@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[english]{varioref}
+\usepackage{setspace}
+\input{sections/packages}
+\input{sections/frontPage}
+\onehalfspacing
+
+\begin{document}
+	\begin{titlepage}
+		\maketitle
+		\thispagestyle{empty}
+	\end{titlepage}
+	\cleardoublepage
+	\newpage
+
+\tableofcontents
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
+
+\section*{Section 1}
+\addcontentsline{toc}{section}{Section 1}
+
+\pagenumbering{arabic}
+
+\end{document}
